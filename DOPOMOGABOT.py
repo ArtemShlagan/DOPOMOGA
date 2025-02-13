@@ -62,7 +62,7 @@ async def check_subscriptions(callback: CallbackQuery):
         await callback.message.answer(
             "Дякую за довіру.\nСлідкуйте за новинами в каналах спонсорах, там завжди публікується нова інформація про виплати Українцям.\nСлава Україні!"
         )
-        await callback.message.answer("💰 Ваш бонус: https://t.me/vyplatigro")
+        await callback.message.answer("💰 Ваш бонус: https://t.me/dopomogauas")
     else:
         channels_text = "\n".join([f"👉 {channel}" for channel in not_subscribed])
         await callback.message.answer(f"Ви не підписані на наступні канали:\n{channels_text}")
