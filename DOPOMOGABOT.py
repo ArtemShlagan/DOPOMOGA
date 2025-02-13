@@ -3,7 +3,7 @@ from aiogram.types import Message, CallbackQuery, InlineKeyboardMarkup, InlineKe
 from aiogram.filters import Command
 import asyncio
 
-API_TOKEN = "7652734261:AAGBkXeDyiYF7b96LVWAu5cfxpKVeUzcb_k"
+API_TOKEN = "7518527461:AAHGTMkjF1qpfHd9M2yV-3AMT036tQViFyk"
 
 # Каналы, на которые пользователь должен подписаться
 CHANNELS = [
